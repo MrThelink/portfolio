@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Cv from './componets/pages/Cv/cv'
+import Main from './componets/pages/main/main'
+import Proects from './componets/pages/Proects/proects'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom';
+import Navbar from './componets/navbar/navbar';
+import styles from "./app.module.scss"
 
-function App() {
+
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.container}>
+
+      <Router basename='/portfolio'>
+        <Navbar/>
+
+        <Switch>
+          {/* Changing content comes here */}
+          <Route exact path='/' component={Main} />
+          <Route exact path='/cv' component={Cv}/>
+          <Route exact path='/proects' component={Proects}/>
+        </Switch>
+
+      </Router>
+    
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
