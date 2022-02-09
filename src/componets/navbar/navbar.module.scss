@@ -1,8 +1,112 @@
-.container{
-    background-color: blue;
-    a{
-        margin: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&d');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    
+}
+
+.navbar_color{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba($color: #000000, $alpha: 0.6);
+}
+
+.logo{ 
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    font-size: 30px;
+
+
+
+    ul{
+        
+    }
+
+    p{
+
         text-decoration: none;
-        color: black;
+        margin: 0px 150px;
+        padding: 0 40px;
+        color: #fff;
+
+        position: absolute;
+        bottom: 0px;
     }
 }
+
+.navbar_text {
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    position: relative;
+    
+    list-style-type:none;
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+.navbar_text {
+     a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 25px 50px;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 6px 50px;
+      }
+}
+
+/*
+.container{
+
+    nav{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns:1 1fr 2 300px 3;
+        margin: 0 20px;
+
+    ul{
+        justify-self: center;
+        grid-column: 2/3;
+
+        height: 100%;
+        display: grid;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50px 1fr;
+        grid-gap: 30px;
+        justify-items: center;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+            margin: 0 20px;
+            padding: 0 20px;
+            color: #fff;
+        }
+    }
+    }   
+
+    a:hover{
+        color: lightblue;
+    }
+}
+*/

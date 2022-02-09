@@ -8,7 +8,7 @@ type ProectsProps = {
 const Proects: React.FC<ProectsProps> = () => {
   return (
     <div className={styles.container}>
-      Proects
+      <h1>Portfolio</h1>
     </div>
   )
 }
