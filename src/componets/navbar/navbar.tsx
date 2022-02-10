@@ -10,22 +10,23 @@ type NavbarProps = {
 const Navbar: React.FC<NavbarProps> = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.navbar_color}>
-         
-         <div className={styles.logo}>
-            <ul>
-               <p>Deni Israilov</p>
-            </ul>
-          </div>
-
           <nav>
-                <ul className={styles.navbar_text}>
+                <div className={styles.logo}>
+                  <h4>Deni</h4>
+                </div>
+
+                <ul className={styles.nav_links}>
                     <Link to="/">Home</Link>
                     <Link to="/proects">Proects</Link>
                     <Link to="/cv">CV</Link>
                 </ul>
+
+                <div className={styles.burger}>
+                    <div className={styles.line1}></div>
+                    <div className={styles.line2}></div>
+                    <div className={styles.line3}></div>
+                </div>
           </nav>
-      </div>
     </div>
   )
 }

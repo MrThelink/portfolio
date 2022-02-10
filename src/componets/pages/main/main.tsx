@@ -8,7 +8,7 @@ type MainProps = {
 const Main: React.FC<MainProps> = () => {
   return (
     <div className={styles.container}>
-      <h1>MAIN</h1>
+      
     </div>
   )
 }
