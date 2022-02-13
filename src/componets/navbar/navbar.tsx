@@ -26,6 +26,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                     <div className={styles.line2}></div>
                     <div className={styles.line3}></div>
                 </div>
+
           </nav>
     </div>
   )

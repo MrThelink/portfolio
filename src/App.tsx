@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom';
 import Navbar from './componets/navbar/navbar';
 import styles from "./app.module.scss"
-
+import Bootstrap from './componets/Bootstrap/bootstrap'
 
 
 const App: React.FC = () => {
@@ -27,7 +27,6 @@ const App: React.FC = () => {
         </Switch>
 
       </Router>
-    
     </div>
   )
 }

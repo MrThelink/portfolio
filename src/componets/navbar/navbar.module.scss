@@ -4,15 +4,15 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    background-color: #23283e;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
 .logo{
-  color: rgb(226, 226, 226);
+  color: #8193d8;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 nav{
@@ -30,11 +30,14 @@ nav{
 
 .nav_links{
   a{
-    color: rgb(226, 226, 226);
+    color: #cdcdff;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
+  }
+  a:hover{
+    color: #8193d8;
   }
 } 
 
@@ -53,7 +56,7 @@ nav{
 
 @media screen and (max-width: 1020px) {
   .nav_links{
-    width: 60%;
+    width: 40%;
   }
 }
 
@@ -64,7 +67,12 @@ nav{
   }
 
   .logo{
-    font-size: 30px;
+    font-size: 40px;
+  }
+
+  nav{
+    color: black;
+    background-color: #3a415e;
   }
 
   .nav_links{
@@ -82,9 +90,19 @@ nav{
       a{
         color: black;
       }
+
   }
   .burger{
       display: block;
+  }
+}
+
+@media screen  and(max-width: 1400px){
+  .logo{
+    font-size: 25px;
+  }
+  .nav_links{
+    width: 40%;
   }
 }
 
