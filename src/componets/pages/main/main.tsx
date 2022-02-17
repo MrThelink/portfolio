@@ -18,21 +18,21 @@ const Main: React.FC<MainProps> = () => {
         <div className={styles.social}>
           <ul>
             <li className={styles.fa}>
-              <a href='https://github.com/MrThelink' target='_blank'>
+              <a href='https://github.com/MrThelink'  rel="noreferrer" target='_blank'>
                 <i>
                   <FaGithub/>
                 </i>
               </a>
             </li>
             <li className={styles.fa}>
-              <a href='https://google.com' target='_blank'>
+              <a href='https://google.com' rel="noreferrer" target='_blank'>
                 <i>
                   <FaLinkedin/>
                 </i>
               </a>
             </li>
             <li className={styles.fa}>
-              <a href='https://www.instagram.com/d7enii/' target='_blank'>
+              <a href='https://www.instagram.com/d7enii/' rel="noreferrer" target='_blank'>
                 <i>
                   <FaInstagram/>
                 </i>
