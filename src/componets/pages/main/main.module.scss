@@ -5,7 +5,7 @@
 .home{
     display: flex;
     flex-direction: column;
-    height: 650px;
+    height: 600px;
     justify-content: center;
     align-items: center;
 }
@@ -36,7 +36,7 @@
     cursor: pointer;
     ul{
         position: absolute;
-        top: 72%;
+        top: 66%;
         left: 50%;
         padding: 0;
         margin: 0;
@@ -93,6 +93,32 @@
     background-color: #e4405f;
 }
 
+/*Main menu buttons styles*/
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons a{
+    display: inline-block ;
+    margin: 15px 30px;
+    color: #cdcdff;
+    font-weight: 500;
+    width: 180px;
+    border: 1px solid #cdcdff;
+    padding: 14px 0;
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+    transition: .2s linear;
+}
+
+.buttons a:hover{
+    background-color: #cdcdff;
+    color: #23283e;
+}
+
 @media screen and (max-width: 1020px) {
     .text{
         font-size: 3.9rem;
@@ -100,9 +126,20 @@
     .aboute_text{
         font-size: 2.3rem;
     }
+    .social{
+        ul{
+        top: 78%;
+        }
+    }
   }
 
   @media screen and (max-width: 765px) {
+    .home{
+        height: 550px;
+    }
+    .social ul {
+        top: 70%;
+    }
     .text{
         font-size: 3.4rem;
     }
@@ -122,24 +159,16 @@
         height: 45px;
         line-height: 1.6em;
     }
-    .social ul{
-        top: 68%;
-    }
   }
 
 
-  @media screen and (max-height: 670px){
-    .home{
-        height: 40%;
-    }
-    .social ul{
-        top: 60%;
-    }
-  }
 
   @media screen and (max-width: 390px) {
+    .home{
+        height: 550px;
+    }
     .social ul {
-        top: 85%;
+        top: 72%;
     }
 
     .text{
@@ -149,5 +178,33 @@
     .aboute_text{
         text-align: center;
         font-size: 1.5em;
+    }
+    .buttons{
+        display: flex;
+    }
+  }
+
+  @media screen and (max-height: 1030px){
+    .home{
+        height: 500px;
+    }
+    
+    .social ul{
+        top: 53%;
+    }
+  }
+
+  @media screen and (max-height: 850px){
+    .social ul{
+        top: 63%;
+    }
+  }
+
+  @media screen and (max-height: 670px){
+    .home{
+        height: 550px;
+    }
+    .social ul{
+        top: 60%;
     }
   }

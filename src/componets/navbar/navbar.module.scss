@@ -64,6 +64,8 @@ nav{
   width: 100vw;
   
   z-index: 1000;
+
+  display: none;
 }
 
 .brgrMenuItems{
@@ -112,6 +114,33 @@ nav{
 
   .brgrMenuItems{
     font-weight: bold;
+
+    display: block;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+    position: absolute;
+    top: 96.5px;
+      
+    background: #3a415e;
+    
+    width: 100vw;
+      
+    z-index: 1000;
+    .brgrMenuItems{
+      a{
+        color: #cdcdff;
+        text-decoration: none;
+        font-size: 25px;
+        padding: 10px 0;
+      }
+      a:hover{
+        color: #8193d8;
+      }
+    }
   }
 
   .nav_links{
