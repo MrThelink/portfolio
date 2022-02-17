@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./main.module.scss"
-import { FaGithub, FaInstagram, FaLine, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 
 type MainProps = {
@@ -16,9 +16,27 @@ const Main: React.FC<MainProps> = () => {
         </div>
         <div className={styles.social}>
           <ul>
-            <li className={styles.fa}><a><i><FaGithub/></i></a></li>
-            <li className={styles.fa}><a><i><FaLinkedin/></i></a></li>
-            <li className={styles.fa}><a><i><FaInstagram/></i></a></li>
+            <li className={styles.fa}>
+              <a href='https://github.com/MrThelink' target='_blank'>
+                <i>
+                  <FaGithub/>
+                </i>
+              </a>
+            </li>
+            <li className={styles.fa}>
+              <a href='https://google.com' target='_blank'>
+                <i>
+                  <FaLinkedin/>
+                </i>
+              </a>
+            </li>
+            <li className={styles.fa}>
+              <a href='https://www.instagram.com/d7enii/' target='_blank'>
+                <i>
+                  <FaInstagram/>
+                </i>
+              </a>
+            </li>
           </ul>
         </div>
     </div>

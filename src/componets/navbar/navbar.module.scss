@@ -8,6 +8,8 @@ body{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
+
+//logo styles
 .logo{
   color: #8193d8;
   text-transform: uppercase;
@@ -15,6 +17,7 @@ body{
   font-size: 30px;
 }
 
+//Navbar styles
 nav{
   display: flex;
   justify-content: space-around;
@@ -39,65 +42,43 @@ nav{
   a:hover{
     color: #8193d8;
   }
-} 
+}
 
-.burger{
+//Burger styles
+.burgerMenuButton {
   display: none;
   cursor: pointer;
 }
 
-.burger div{
-    width: 25px;
-    height: 3px;
-    background-color: rgb(226, 226, 226);
-    margin: 5px;
-    transition: all 0.3s ease;
+.brgrMenuItems {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+  position: absolute;
+  top: 96.5px;
+  
+  background: #3a415e;
+
+  width: 100vw;
+  
+  z-index: 1000;
 }
 
-@media screen and (max-width: 1020px) {
-  .nav_links{
-    width: 40%;
+.brgrMenuItems{
+  a{
+    color: #cdcdff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 0;
   }
-}
-
-@media screen and (max-width: 768px) {
-
-  body{
-    overflow-x: hidden;
-  }
-
-  .logo{
-    font-size: 40px;
-  }
-
-  nav{
-    color: black;
-    background-color: #3a415e;
-  }
-
-  .nav_links{
-      position: absolute;
-      right: 0px;
-      height: 92vh;
-      top: 8vh;
-      background-color: rgb(196, 182, 182);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 80%;
-      transform: translate(100%);
-      transition: transform 0,5s ease-in;
-      a{
-        color: black;
-      }
-
-  }
-  .burger{
-      display: block;
+  a:hover{
+    color: #8193d8;
   }
 }
 
-@media screen  and(max-width: 1400px){
+@media screen and (max-width: 1400px){
   .logo{
     font-size: 25px;
   }
@@ -106,27 +87,49 @@ nav{
   }
 }
 
-.nav_active{
-  transform: translate(0%);
+@media screen and (max-width: 1020px) {
+  .nav_links{
+    width: 40%;
+  }
+
 }
 
-@keyframes navlinkFade{
-  from{
-    opacity: 0;
-    transform: translate(50px);
+@media screen and (max-width: 768px) {
+  .logo{
+    font-size: 27px;
   }
-  to{
-    opacity: 1;
-    transform: translate(0px);
+
+  nav{
+    color: black;
+    background-color: #3a415e;
   }
+
+  .burgerMenuButton {
+    display: block;
+    
+    color: white;
+  }
+
+  .brgrMenuItems{
+    font-weight: bold;
+  }
+
+  .nav_links{
+    display: none;
+  }
+
 }
 
-.toggle .line1{
-    transform: rotate(-45deg) translate (-5px,-6px);
-}
-.toggle .line2{
-  opacity: 0;
-}
-.toggle .line3{
-  transform: rotate(45deg) translate(-5px, -6px);
+@media screen and (max-width: 300px) {
+    .logo{
+      h4{
+        font-size: 24px;
+      }
+    }
+
+    .brgrMenuItems {
+      top: 92.81px;
+    }
+
+    
 }

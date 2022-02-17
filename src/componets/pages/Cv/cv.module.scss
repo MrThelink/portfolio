@@ -1,8 +1,155 @@
-.container{
-    background-color: lightseagreen;
-    padding: 50px 50%;
+/*About section*/
+.about_text {
+    line-height: 45px;
+    transition: 0.5s;
+    transform: translate(0,0px);
+
+    h3{
+        color: #cdcdff;
+        text-transform: capitalize;
+        font-size: 28px;
+        margin: 25px 0;
+        padding: 5% 0;
+    }
+}
+
+.padd{
+    padding: 0 30%;
+}
+
+.skill{
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    transform: translate(0,0px);
+    width: 90%;
+}
+
+.skill:hover{
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+.about_text .skill{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about_text .skills_item{
+    background-color: #2a2f4c;
+    padding: 5px 15px;
+    text-transform: capitalize;
+    margin: 0 10px;
+    margin: 0 10px 10px 0;
+    border-radius: 20px;
+}
+.skills_item{
+    color: #cdcdff;
+}
+
+.fa {
+    color: #000000;
+    font-size: 40px;
+    line-height: 50px;
+    transition: .5s;
+}
+
+.fa:hover {
+    color: #ffffff;
+}
+
+.section_title{
+    padding: 0 5px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section_title{
+    h2{
+        font-size: 40px;
+        color: #cdcdff;
+        text-transform: capitalize;
+    }
+}
+
+.about_text{
+    h3{
+        text-transform: capitalize;
+        margin: 20px 0;
+    }
+}
+
+.p_text{
+    display: flex;
+    color: #cdcdff;
+    font-size: 18;
+    padding: 0 30%;
+}
+
+@media screen and (max-width: 1020px) {
+    .skill{
+        width: 120%;
+    }
+
+    .p_text{
+        width: 63%;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+     
+    .padd{
+        h3{
+            text-align: 1em;
+        }
+    }
+
+    .about_text {
+        line-height: 35px;
+    }
+
+    .skill{
+        width: 100%;
+    }
+
+    .padd{
+        padding: 0 5%;
+    }
+
+    .section_title{
+        h2{
+            font-size: 30px;
+        }
+    }
+
+    .p_text{
+        font-size: 18px;
+        padding: 0 20%;
+        text-align: center;
+    }
+
+    .about_text{
+        h3{
+            margin: 20px;
+            font-size: 25px;
+        }
+    }
+ }
+
+ @media screen and (max-width: 460px) {
+
+    .p_text{
+        font-size: 15px;
+    }
+
+    .about_text{
+        h3{
+            margin: 20px;
+            font-size: 25px;
+        }
+    }
     
-    h1{
-        color: rgb(38, 0, 255);
+    .padd{
+        padding: 0 3%;
     }
 }

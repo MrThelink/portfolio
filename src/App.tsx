@@ -22,8 +22,8 @@ const App: React.FC = () => {
         <Switch>
           {/* Changing content comes here */}
           <Route exact path='/' component={Main} />
-          <Route exact path='/cv' component={Cv}/>
           <Route exact path='/proects' component={Proects}/>
+          <Route exact path='/cv' component={Cv}/>
         </Switch>
 
       </Router>

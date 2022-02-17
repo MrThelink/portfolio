@@ -9,7 +9,7 @@ const Bootstrap : React.FC<Bootstrap> = () => {
   return (
     <nav>
         <div className={styles.text}>
-            <h1>Hi girls.</h1>
+            <h1>Hi people</h1>
         </div>
     </nav>
   )
