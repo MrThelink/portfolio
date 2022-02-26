@@ -19,17 +19,6 @@ const Cv: React.FC<CvProps> = () => {
                 <h3>SKILLS</h3>
                 <p>Agile software development Participating on small scrum teams
                     Writing user stories Working with clients to develop product backlogs</p>
-              <div className={styles.skill}>
-                <div className={styles.skills_item}>html</div>
-                <div className={styles.skills_item}>css</div>
-                <div className={styles.skills_item}>c#</div>
-                <div className={styles.skills_item}>scss</div>
-                <div className={styles.skills_item}>javasScript</div>
-                <div className={styles.skills_item}>typesScript</div>
-                <div className={styles.skills_item}>react</div>
-                <div className={styles.skills_item}>unity</div>
-                <div className={styles.skills_item}>wordpress</div>
-            </div>
             </div>
         </div>
     </div>

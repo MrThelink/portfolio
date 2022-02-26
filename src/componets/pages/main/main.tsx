@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./main.module.scss"
 import { Link } from 'react-router-dom'
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin,} from 'react-icons/fa';
 
 
 type MainProps = {
@@ -40,7 +40,7 @@ const Main: React.FC<MainProps> = () => {
             </li>
           </ul>
           <div className={styles.buttons}>
-            <Link to="/proects">Check my proects</Link>
+            <Link to="/proects">My proects</Link>
             <Link to="/cv">More about me</Link>
           </div>
         </div>

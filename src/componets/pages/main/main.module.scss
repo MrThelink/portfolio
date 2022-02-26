@@ -4,8 +4,8 @@
 
 .home{
     display: flex;
+    margin: 100px 0;
     flex-direction: column;
-    height: 600px;
     justify-content: center;
     align-items: center;
 }
@@ -32,15 +32,14 @@
 }
 
 //Social media
+
+
 .social{
     cursor: pointer;
     ul{
-        position: absolute;
-        top: 66%;
-        left: 50%;
-        padding: 0;
-        margin: 0;
-        transform: translate(-50%, -50%);
+        justify-content: center;
+        align-items: center;
+        margin: 70px 0;
         display: flex;
     }
     
@@ -126,53 +125,34 @@
     .aboute_text{
         font-size: 2.3rem;
     }
-    .social{
-        ul{
-        top: 78%;
-        }
-    }
   }
 
   @media screen and (max-width: 765px) {
     .home{
-        height: 550px;
+        margin: 80px 0;
     }
-    .social ul {
-        top: 70%;
-    }
-    .text{
-        font-size: 3.4rem;
-    }
-    .aboute_text{
-        font-size: 2rem;
-    }
-    .about_me{
-        color: #f0f8ff;
-    
-        font-size: 1.2rem;
-    }
-    .fa {
-        font-size: 35px;
-    }
-    .social ul li a {
-        width: 45px;
-        height: 45px;
-        line-height: 1.6em;
+
+    .social{
+        ul{
+        margin: 70px 0;
+        }
     }
   }
 
 
 
   @media screen and (max-width: 390px) {
-    .home{
-        height: 550px;
-    }
-    .social ul {
-        top: 72%;
-    }
-
     .text{
         text-align: center;
+    }
+    .social{
+        ul{
+        margin: 50px 0;
+        }
+    }
+
+    .home{
+        margin: 50px 0;
     }
 
     .aboute_text{
@@ -181,20 +161,5 @@
     }
     .buttons{
         display: flex;
-    }
-  }
-
-  @media screen and (max-height: 850px){
-    .social ul{
-        top: 63%;
-    }
-  }
-
-  @media screen and (max-height: 670px){
-    .home{
-        height: 550px;
-    }
-    .social ul{
-        top: 60%;
     }
   }

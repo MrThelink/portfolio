@@ -19,7 +19,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                 </div>
                 <ul className={styles.nav_links}>
                     <Link to="/">Home</Link>
-                    <Link to="/proects">Proects</Link>
+                    <Link to="/proects">Projects</Link>
                     <Link to="/cv">CV</Link>
                 </ul>
 
@@ -32,7 +32,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                   ? (
                     <div className={styles.brgrMenuItems}>
                       <Link to="/">Home</Link>
-                      <Link to="/proects">Proects</Link>
+                      <Link to="/proects">Projects</Link>
                       <Link to="/cv">CV</Link>
                     </div>
                   )
