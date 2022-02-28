@@ -4,7 +4,7 @@
 
 .home{
     display: flex;
-    margin: 100px 0;
+    margin: 100px 0 60px 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@
     ul{
         justify-content: center;
         align-items: center;
-        margin: 70px 0;
+        margin: 70px 0 80px 0;
         display: flex;
     }
     
@@ -110,7 +110,7 @@
     text-decoration: none;
     border-radius: 6px;
     text-align: center;
-    transition: .2s linear;
+    transition: .3s linear;
 }
 
 .buttons a:hover{
@@ -130,6 +130,10 @@
   @media screen and (max-width: 765px) {
     .home{
         margin: 80px 0;
+    }
+
+    .text{
+        text-align: center;
     }
 
     .social{

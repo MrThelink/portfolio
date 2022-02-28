@@ -1,0 +1,196 @@
+.about_text{
+    transition: .5s;
+    width: 1080px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.top_text{
+    h2{
+        color: #cdcdff;
+        text-align: center;
+        margin: 40px 0px 30px 0px;
+        font-size: 30px;    
+    }
+    p{
+        color: #cdcdff;
+        text-align: center;
+    }
+}
+
+.section_title{
+    h2{
+        text-align: center;
+        color: #cdcdff;
+        margin: 40px 0px 30px 0px;
+    }
+}
+
+.p_text{
+    p{
+        text-align: center;
+        color: #cdcdff;
+    }
+}
+
+.padd{
+    h2{
+        color: #cdcdff;
+        text-align: center;
+        margin: 40px 0px 30px 0px;
+    }
+
+    p{
+        color: #cdcdff;
+        text-align: center;    
+    }
+}
+
+.lan_ski{
+    h2{
+        color: #cdcdff;
+        text-align: center;
+        margin: 40px 0px 30px 0px;
+    }
+}
+
+.skill_info{
+    h4{
+        color: #cdcdff;
+        font-size: 20px;
+        margin: 0px 20rem;
+    }
+}
+
+.dot_controller{
+    width: 350px;
+    height: 50px;   
+    margin: 0 auto;
+}
+
+.dot_bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.dot{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #cdcdff;
+    border-radius: 50%;
+    position: relative;
+    
+}
+
+.dot_dark{
+    width: 20px;
+    height: 20px;
+    background-color: #90a0d9;
+    border-radius: 50%;
+    position: relative;
+}
+
+@media screen and (max-width: 1100px) {
+    .about_text{
+        width: 550px;
+        height: 730px;
+    }
+    
+    .skill_info{
+        h4{
+            margin: 0px 0rem;
+        }
+    }
+
+    .dot_controller{
+        width: 300px;
+        float: left;
+    }
+
+    .dot{
+        margin: 0 0rem;
+        padding: 3px;
+    }
+
+    .dot_dark{
+        margin: 0;
+        padding: 3px;
+    }
+
+  }
+
+@media screen and (max-width: 560px) {
+    .about_text{
+        width: 300px;
+        height: 1060px;
+    }
+
+    .about_text{
+        h2{
+            color: #cdcdff;
+            font-size: 30px;    
+        }
+        p{
+            color: #cdcdff;
+            margin: 10px 0px 20px 0px;
+            text-align: left;
+        }
+    }
+
+    .section_title{
+        h2{
+            font-size: 25px;
+        }
+    }
+
+    .p_text{
+        p{
+            text-align: left;
+            color: #cdcdff;
+        }
+    }
+
+    .padd{
+        h2{
+            color: #cdcdff;
+            font-size: 25px;
+            margin: 40px 0px 30px 0px;
+        }
+    
+        p{
+            color: #cdcdff;
+            text-align: left;
+        }
+    }
+
+    .dot_controller{
+        width: 250px;
+        float: left;
+    }
+
+
+    .lan_ski{
+        h2{
+            font-size: 25px;
+        }
+    }
+
+    .dot{
+        padding: 3px;
+
+        word-spacing: 10px;
+    }
+
+    .dot_dark{
+        padding: 3px;   
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .about_text{
+        width: 250px;
+        height: 1060px;
+    }
+}
