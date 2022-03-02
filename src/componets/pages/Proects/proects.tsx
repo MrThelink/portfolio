@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCss3, FaReact, FaUnity } from 'react-icons/fa'
+import { FaReact, FaUnity } from 'react-icons/fa'
 import styles from "./proects.module.scss"
 
 type ProectsProps = {

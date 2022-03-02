@@ -1,7 +1,7 @@
 .about_text{
     transition: .5s;
     width: 1080px;
-    height: 800px;
+    height: 1000px;
     margin: 0 auto;
 }
 
@@ -54,18 +54,29 @@
     }
 }
 
+.solid{
+    width: 150px;
+    height: 30px;   
+
+    border: 1px solid red;
+}
+
 .skill_info{
+    margin: 0px 0px 30px 0px;
+    
+
     h4{
-        color: #cdcdff;
+        color:#cdcdff;
         font-size: 20px;
         margin: 0px 20rem;
     }
 }
 
 .dot_controller{
-    width: 350px;
+
+    width: 550px;
     height: 50px;   
-    margin: 0 auto;
+    margin: 0px 20rem;
 }
 
 .dot_bar{
@@ -87,7 +98,7 @@
 .dot_dark{
     width: 20px;
     height: 20px;
-    background-color: #90a0d9;
+    background-color: #5b6caa;
     border-radius: 50%;
     position: relative;
 }
@@ -95,36 +106,38 @@
 @media screen and (max-width: 1100px) {
     .about_text{
         width: 550px;
-        height: 730px;
+        height: 1100px;
     }
     
     .skill_info{
+
         h4{
             margin: 0px 0rem;
         }
     }
 
     .dot_controller{
-        width: 300px;
+        width: 480px;
         float: left;
+        margin: 25px 0;
     }
 
     .dot{
         margin: 0 0rem;
-        padding: 3px;
+        padding: 2px;
     }
 
     .dot_dark{
         margin: 0;
-        padding: 3px;
+        padding: 2px;
     }
 
   }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 570px) {
     .about_text{
         width: 300px;
-        height: 1060px;
+        height: 1100px;
     }
 
     .about_text{
@@ -168,8 +181,9 @@
     .dot_controller{
         width: 250px;
         float: left;
+        margin: 10px 0px;
+    
     }
-
 
     .lan_ski{
         h2{
