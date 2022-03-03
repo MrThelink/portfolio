@@ -6,15 +6,19 @@
 }
 
 .top_text{
+    margin: 50px 0px 0px 0px;
+
     h2{
         color: #cdcdff;
         text-align: center;
         margin: 40px 0px 30px 0px;
-        font-size: 30px;    
+        font-size: 30px;   
     }
     p{
         color: #cdcdff;
         text-align: center;
+        font-size: 25px;
+        margin: 0px 0px 70px 0px ;
     }
 }
 
@@ -57,8 +61,6 @@
 .solid{
     width: 150px;
     height: 30px;   
-
-    border: 1px solid red;
 }
 
 .skill_info{
@@ -68,15 +70,63 @@
     h4{
         color:#cdcdff;
         font-size: 20px;
-        margin: 0px 20rem;
+        margin: 0px 15.5rem;
+    }
+}
+
+.skill_resul{
+    border: 1px solid red;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.skill_box{
+    width: 270px;
+    height: 300px;
+    float: left;
+    margin: 50px 0px 0px 50px;
+}
+
+.skill_box{
+    
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 80px;
+
+        color: darkorange;
+        
+    }
+
+    #css{
+        color: blue;
+    }
+
+    h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: #cdcdff;
+        margin: 14px 0;
+    }
+
+    h4{
+        text-align: center;
+
+        color: #cdcdff;
+
+        margin: 50px 0px 0px 0px;
     }
 }
 
 .dot_controller{
-
-    width: 550px;
+    width: 350px;
     height: 50px;   
-    margin: 0px 20rem;
+    margin: 0px 15.5rem;
 }
 
 .dot_bar{
@@ -99,8 +149,7 @@
     width: 20px;
     height: 20px;
     background-color: #5b6caa;
-    border-radius: 50%;
-    position: relative;
+    border-radius: 50%; 
 }
 
 @media screen and (max-width: 1100px) {
