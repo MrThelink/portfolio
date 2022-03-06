@@ -40,7 +40,7 @@ const Main: React.FC<MainProps> = () => {
             </li>
           </ul>
           <div className={styles.buttons}>
-            <Link to="/proects">My proects</Link>
+            <Link to="/proects">My projects</Link>
             <Link to="/cv">More about me</Link>
           </div>
         </div>

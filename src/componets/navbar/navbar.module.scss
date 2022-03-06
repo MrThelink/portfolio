@@ -98,7 +98,9 @@ nav{
 
 @media screen and (max-width: 768px) {
   .logo{
-    font-size: 27px;
+    font-size: 23px;
+    margin: 0px;
+
   }
 
   nav{
@@ -123,13 +125,14 @@ nav{
     align-items: center;
     
     position: absolute;
-    top: 96.5px;
+    top: 89.16px;
       
     background: #212536;
     
     width: 100vw;
       
     z-index: 1000;
+
     .brgrMenuItems{
       a{
         color: #cdcdff;

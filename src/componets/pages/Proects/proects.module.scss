@@ -10,7 +10,7 @@
 
 .box_dev{
     width: 1120px;
-    height: 400px;
+    height: 1200px;
     margin: 0 auto;
     transition: .3s;
 }
@@ -38,8 +38,7 @@
 
 .box{
     .unity{
-        display: flex;
-        justify-content: center;
+        text-align: center;
 
         color: #cdcdff;
 
@@ -48,13 +47,14 @@
         font-size:  15px;
 
         word-spacing: 15px;
+
     }
     .skills_{
         color: #cdcdff;
 
         font-size:  15px;
 
-        margin: 70px 20px 25px 20px;
+        margin: 60px 20px 20px 20px;
         
         word-spacing: 15px;
     }
@@ -78,8 +78,6 @@
         text-decoration: none;
     }
     p{
-    display: inline-block ;
-
     font-size: 18px;
     font-weight: 500;
 
@@ -101,9 +99,6 @@
         border: 1px solid #23283e;
     }
 } 
-
-
-
 
 @media screen and (max-width: 1130px) {
     .box_dev{

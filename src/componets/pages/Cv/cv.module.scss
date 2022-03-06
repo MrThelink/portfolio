@@ -9,10 +9,11 @@
     margin: 50px 0px 0px 0px;
 
     h2{
-        color: #cdcdff;
+        color: #8193d8;
         text-align: center;
         margin: 40px 0px 30px 0px;
-        font-size: 30px;   
+        font-size: 40px;   
+        font-weight: bold;
     }
     p{
         color: #cdcdff;
@@ -50,12 +51,10 @@
     }
 }
 
-.lan_ski{
-    h2{
-        color: #cdcdff;
-        text-align: center;
-        margin: 40px 0px 30px 0px;
-    }
+#lan_text{
+    text-align: center;
+    color: #cdcdff;
+    margin: 40px 0px 30px 0px;
 }
 
 .solid{
@@ -75,21 +74,19 @@
 }
 
 .skill_resul{
-    border: 1px solid red;
     width: 1000px;
-    height: 1000px;
+    height: 1200px;
     margin: 0 auto;
 }
 
 .skill_box{
     width: 270px;
-    height: 300px;
+    height: 250px;
     float: left;
     margin: 50px 0px 0px 50px;
 }
 
 .skill_box{
-    
     a{
         display: flex;
         justify-content: center;
@@ -97,12 +94,44 @@
 
         font-size: 80px;
 
-        color: darkorange;
+        color: #F16529;
         
     }
 
     #css{
-        color: blue;
+        color: #33A9DC;
+    }
+
+    #react{
+        color: #61DAFB;
+    }
+
+    #js{
+        color: #F0DB4F;
+    }
+
+    #sass{
+        color: #CB6699;
+    }
+
+    #java{
+        color: #EA2D2E;
+    }
+
+    #csharp{
+        color: #68217A;
+    }
+
+    #ts{
+        color: #007ACC;
+    }
+
+    #unity{
+        color: #4c5d70;
+    }
+
+    #github{
+        color: #F03C2E;
     }
 
     h3{
@@ -181,9 +210,38 @@
         padding: 2px;
     }
 
+    .skill_resul{
+        width: 550px;
+        height: 1350px; 
+    }
+
+    .skill_box{
+        width: 250px;
+        margin: 15px 0px 0px 15px;
+    }
+
   }
 
 @media screen and (max-width: 570px) {
+    .top_text{
+        p{
+            text-align: relative;
+            font-size: 23px;
+        }
+    }
+
+    .skill_box{
+        width: 280px;
+        height: 200px;
+
+        a{
+            font-size: 60px;
+        }
+        h4{
+            margin: 16px 0px 0px;
+        }
+    }
+
     .about_text{
         width: 300px;
         height: 1100px;
@@ -249,11 +307,32 @@
     .dot_dark{
         padding: 3px;   
     }
+
+    .skill_resul{
+        width: 280px;
+        height: 1350px; 
+    }
 }
 
 @media screen and (max-width: 290px) {
     .about_text{
         width: 250px;
         height: 1060px;
+    }
+
+    .skill_resul{
+        width: 220px;
+        height: 1350px; 
+    }
+
+    .skill_box{
+        width: 220px;
+        height: 220px;
+
+        margin: 0px;
+
+        h4{
+            margin: 20px 0px 0px;
+        }
     }
 }
