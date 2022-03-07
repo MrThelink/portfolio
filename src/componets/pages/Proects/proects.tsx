@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaCss3, FaHtml5, FaReact, FaUnity } from "react-icons/fa"
 import { DiJavascript, DiSass } from "react-icons/di"
-import { SiCsharp, SiGithub, SiTypescript, SiUnity } from "react-icons/si";
+import { SiCsharp, SiTypescript} from "react-icons/si";
 import styles from "./proects.module.scss"
 
 type ProectsProps = {
