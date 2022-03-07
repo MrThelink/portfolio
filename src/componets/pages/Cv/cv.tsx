@@ -63,7 +63,7 @@ const Cv: React.FC<CvProps> = () => {
 
                   <div className={styles.skill_box}>
                     <div>
-                      <a href="" id={styles.ts}>
+                      <a id={styles.ts}>
                           <SiTypescript/>
                       </a>
                       <h3>TypeScript</h3>
