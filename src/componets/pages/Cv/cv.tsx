@@ -34,18 +34,18 @@ const Cv: React.FC<CvProps> = () => {
                 <p>Tools and programming languages that I use for development and making projects</p>
                 <div className={styles.skill_resul}>
                     <div className={styles.skill_box}>
-                      <a>
+                      <span>
                           <FaHtml5/>
-                      </a>
+                      </span>
                       <h3>HTML 5</h3>
                       <h4>I use this laungitsh when I am doing website</h4>
                     </div>
 
                     <div className={styles.skill_box}>
                     <div>
-                      <a id={styles.css}>
+                      <span id={styles.css}>
                           <FaCss3/>
-                      </a>
+                      </span>
                       <h3>CSS 3</h3>
                       <h4>I use this laungitsh to dissan my website</h4>
                     </div>
@@ -53,9 +53,9 @@ const Cv: React.FC<CvProps> = () => {
 
                   <div className={styles.skill_box}>
                     <div>
-                      <a id={styles.js}>
+                      <span id={styles.js}>
                           <DiJavascript/>
-                      </a>
+                      </span>
                       <h3>JavaScript</h3>
                       <h4>I use this laungitsh to dissan my website</h4>
                     </div>
@@ -63,27 +63,27 @@ const Cv: React.FC<CvProps> = () => {
 
                   <div className={styles.skill_box}>
                     <div>
-                      <a id={styles.ts}>
+                      <span id={styles.ts}>
                           <SiTypescript/>
-                      </a>
+                      </span>
                       <h3>TypeScript</h3>
                     </div>
                   </div>
 
                   <div className={styles.skill_box}>
                     <div>
-                      <a id={styles.java}>
+                      <span id={styles.java}>
                           <DiJava/>
-                      </a>
+                      </span>
                       <h3>Java</h3>
                     </div>
                   </div>
 
                   <div className={styles.skill_box}>
                     <div>
-                      <a id={styles.react}>
+                      <span id={styles.react}>
                           <FaReact/>
-                      </a>
+                      </span>
                       <h3>React</h3>
                       <h4>II use this laungitsh when I am doing website ...</h4>
                     </div>
@@ -91,9 +91,9 @@ const Cv: React.FC<CvProps> = () => {
 
                   <div className={styles.skill_box}>
                     <div>
-                      <a id={styles.sass}>
+                      <span id={styles.sass}>
                           <DiSass/>
-                      </a>
+                      </span>
                       <h3>Sass</h3>
                       <h4>I use this laungitsh to dissan my website</h4>
                     </div>
@@ -101,9 +101,9 @@ const Cv: React.FC<CvProps> = () => {
 
                   <div className={styles.skill_box}>
                     <div>
-                      <a id={styles.csharp}>
+                      <span id={styles.csharp}>
                           <SiCsharp/>
-                      </a>
+                      </span>
                       <h3>C#</h3>
                       <h4>I use this languish to make fun games ...</h4>
                     </div>
@@ -111,9 +111,9 @@ const Cv: React.FC<CvProps> = () => {
                   
                   <div className={styles.skill_box}>
                     <div>
-                      <a id={styles.unity}>
+                      <span id={styles.unity}>
                           <SiUnity/>
-                      </a>
+                      </span>
                       <h3>Unity</h3>
                       <h4>I use this when i'm doing games</h4>
                     </div>
@@ -121,9 +121,9 @@ const Cv: React.FC<CvProps> = () => {
 
                   <div className={styles.skill_box}>
                     <div>
-                      <a id={styles.github}>
+                      <span id={styles.github}>
                           <SiGithub/>
-                      </a>
+                      </span>
                       <h3>Github</h3>
                       <h4>I use github to push my codes</h4>
                     </div>
