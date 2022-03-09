@@ -56,13 +56,13 @@
     line-height: 50px;
     transition: .5s;
     a{
-        color: #000;
+        color:  #23283e;
     }
 }
 
 .fa:hover {
     a{
-        color: #ffffff;
+        color: #cdcdff;
     }
 }
 
@@ -75,9 +75,13 @@
     background-color: #cdcdff;
     text-align: center;
     line-height: 60px;
-    transition: 0.5s;
+    transition: 0.6s;
     transform: translate(0,0px);
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.social ul li a:hover {
+    background-color: #1d2130;
 }
 
 /*Main menu buttons styles*/
