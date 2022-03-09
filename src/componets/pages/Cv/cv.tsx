@@ -38,7 +38,7 @@ const Cv: React.FC<CvProps> = () => {
                           <FaHtml5/>
                       </span>
                       <h3>HTML 5</h3>
-                      <h4>I use this laungitsh when I am doing website</h4>
+                      <h4>I use this HTML when I am doing website</h4>
                     </div>
 
                     <div className={styles.skill_box}>
@@ -47,7 +47,7 @@ const Cv: React.FC<CvProps> = () => {
                           <FaCss3/>
                       </span>
                       <h3>CSS 3</h3>
-                      <h4>I use this laungitsh to dissan my website</h4>
+                      <h4>I use this css to dissan my website</h4>
                     </div>
                   </div>
 
@@ -57,7 +57,7 @@ const Cv: React.FC<CvProps> = () => {
                           <DiJavascript/>
                       </span>
                       <h3>JavaScript</h3>
-                      <h4>I use this laungitsh to dissan my website</h4>
+                      <h4>I use this JS to dissan my website</h4>
                     </div>
                   </div>
 
@@ -67,6 +67,7 @@ const Cv: React.FC<CvProps> = () => {
                           <SiTypescript/>
                       </span>
                       <h3>TypeScript</h3>
+                      <h4>I use this TS to dissan and make website</h4>
                     </div>
                   </div>
 
@@ -76,6 +77,7 @@ const Cv: React.FC<CvProps> = () => {
                           <DiJava/>
                       </span>
                       <h3>Java</h3>
+                      <h4>I use Java when i need to make mobile site</h4>
                     </div>
                   </div>
 
@@ -85,7 +87,7 @@ const Cv: React.FC<CvProps> = () => {
                           <FaReact/>
                       </span>
                       <h3>React</h3>
-                      <h4>II use this laungitsh when I am doing website ...</h4>
+                      <h4>I use this React when I am doing website ...</h4>
                     </div>
                   </div>
 
@@ -95,7 +97,7 @@ const Cv: React.FC<CvProps> = () => {
                           <DiSass/>
                       </span>
                       <h3>Sass</h3>
-                      <h4>I use this laungitsh to dissan my website</h4>
+                      <h4>I use this sass to dissan my website</h4>
                     </div>
                   </div>
 
@@ -105,7 +107,7 @@ const Cv: React.FC<CvProps> = () => {
                           <SiCsharp/>
                       </span>
                       <h3>C#</h3>
-                      <h4>I use this languish to make fun games ...</h4>
+                      <h4>I use this c# when I makes games</h4>
                     </div>
                   </div>
                   
@@ -115,20 +117,9 @@ const Cv: React.FC<CvProps> = () => {
                           <SiUnity/>
                       </span>
                       <h3>Unity</h3>
-                      <h4>I use this when i'm doing games</h4>
+                      <h4>I use Unity when i'm doing games</h4>
                     </div>
                   </div>
-
-                  <div className={styles.skill_box}>
-                    <div>
-                      <span id={styles.github}>
-                          <SiGithub/>
-                      </span>
-                      <h3>Github</h3>
-                      <h4>I use github to push my codes</h4>
-                    </div>
-                  </div>
-
                 </div>
             </div>
 

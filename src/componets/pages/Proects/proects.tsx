@@ -66,7 +66,7 @@ const Proects: React.FC<ProectsProps> = () => {
             <FaHtml5 size={15}/>Html  <FaCss3 size={15}/>Css <DiJavascript size={15}/>JavaScript
           </p>
           <div className={styles.buttons} id={styles.butstyl}>
-            <a href='https://github.com/MrThelink/portfolio' rel="noreferrer" target='_blank'>
+            <a href='https://github.com/MrThelink/Calculator' rel="noreferrer" target='_blank'>
               <p>
                 Learn More
               </p>

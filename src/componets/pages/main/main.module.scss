@@ -61,7 +61,9 @@
 }
 
 .fa:hover {
-    color: #ffffff;
+    a{
+        color: #ffffff;
+    }
 }
 
 .social ul li a {
@@ -76,22 +78,6 @@
     transition: 0.5s;
     transform: translate(0,0px);
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
-}
-
-.social ul li a:hover {
-    transform: rotate(0deg) skew(0deg) translate(0, -10px);
-}
-
-.social ul li:nth-child(1) a:hover {
-    background-color: #90a0d9;
-}
-
-.social ul li:nth-child(2) a:hover {
-    background-color: #90a0d9;
-}
-
-.social ul li:nth-child(3) a:hover {
-    background-color: #e4405f;
 }
 
 /*Main menu buttons styles*/
@@ -150,24 +136,6 @@
         }
     }
   }
-
-.social ul li a:hover {
-    transform: rotate(0deg) skew(0deg) translate(0, 0px)
-}
-
-.social ul li:nth-child(1) a:hover {
-    background-color: #cdcdff;
-}
-
-.social ul li:nth-child(2) a:hover {
-    background-color: #cdcdff;
-}
-
-.social ul li:nth-child(3) a:hover {
-    background-color: #cdcdff;
-}
-
-
 
   @media screen and (max-width: 390px) {
     .text{
