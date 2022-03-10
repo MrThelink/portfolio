@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaCss3, FaHtml5, FaReact } from "react-icons/fa"
 import { DiJava, DiJavascript, DiSass, } from "react-icons/di"
-import { SiCsharp, SiGithub, SiTypescript, SiUnity } from "react-icons/si";
+import { SiCsharp, SiTypescript, SiUnity } from "react-icons/si";
 import styles from "./cv.module.scss"
 
 type CvProps = {
