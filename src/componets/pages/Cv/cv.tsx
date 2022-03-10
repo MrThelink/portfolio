@@ -47,7 +47,7 @@ const Cv: React.FC<CvProps> = () => {
                           <FaCss3/>
                       </span>
                       <h3>CSS 3</h3>
-                      <h4>I use this css to dissan my website</h4>
+                      <h4>I use css to design my website</h4>
                     </div>
                   </div>
 
@@ -57,7 +57,7 @@ const Cv: React.FC<CvProps> = () => {
                           <DiJavascript/>
                       </span>
                       <h3>JavaScript</h3>
-                      <h4>I use this JS to dissan my website</h4>
+                      <h4>I use JS to design my website ore when i do website</h4>
                     </div>
                   </div>
 
@@ -67,7 +67,7 @@ const Cv: React.FC<CvProps> = () => {
                           <SiTypescript/>
                       </span>
                       <h3>TypeScript</h3>
-                      <h4>I use this TS to dissan and make website</h4>
+                      <h4>I use TS to dissan and make website</h4>
                     </div>
                   </div>
 
@@ -77,7 +77,7 @@ const Cv: React.FC<CvProps> = () => {
                           <DiJava/>
                       </span>
                       <h3>Java</h3>
-                      <h4>I use Java when i need to make mobile site</h4>
+                      <h4>I use Java when i need to make mobile site ore game</h4>
                     </div>
                   </div>
 
@@ -87,7 +87,7 @@ const Cv: React.FC<CvProps> = () => {
                           <FaReact/>
                       </span>
                       <h3>React</h3>
-                      <h4>I use this React when I am doing website ...</h4>
+                      <h4>I use React when I am doing website ...</h4>
                     </div>
                   </div>
 
@@ -97,7 +97,7 @@ const Cv: React.FC<CvProps> = () => {
                           <DiSass/>
                       </span>
                       <h3>Sass</h3>
-                      <h4>I use this sass to dissan my website</h4>
+                      <h4>I use Sass to design in my projects</h4>
                     </div>
                   </div>
 
@@ -107,7 +107,7 @@ const Cv: React.FC<CvProps> = () => {
                           <SiCsharp/>
                       </span>
                       <h3>C#</h3>
-                      <h4>I use this c# when I makes games</h4>
+                      <h4>I use C# when i makes games</h4>
                     </div>
                   </div>
                   
