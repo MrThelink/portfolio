@@ -60,12 +60,34 @@
 
         text-align: center;
     }
+
+    .box_top{
+        color: #cdcdff;
+
+        font-size:  15px;
+
+        margin: 30px 0px 5px 0px;
+        
+        word-spacing: 15px;
+
+        text-align: center;
+    }
 }
 
 ._text{
     color: #cdcdff;
+
     font-size: 17px;
-    margin: 50px 0px 35px 0px;
+
+    margin: 55px 0px 35px 0px;
+}
+
+.box_topText{
+    color: #cdcdff;
+
+    font-size: 17px;
+
+    margin: 40px 0px 35px 0px;
 }
 
 //media box
