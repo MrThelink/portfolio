@@ -38,7 +38,7 @@ const Cv: React.FC<CvProps> = () => {
                           <FaHtml5/>
                       </span>
                       <h3>HTML 5</h3>
-                      <h4>I use this HTML when I am doing website</h4>
+                      <h4>I use HTML when I am doing website</h4>
                     </div>
 
                     <div className={styles.skill_box}>
