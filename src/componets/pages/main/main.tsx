@@ -39,11 +39,11 @@ const Main: React.FC<MainProps> = () => {
               </a>
             </li>
           </ul>
+        </div>
           <div className={styles.buttons}>
             <Link to="/proects">My projects</Link>
             <Link to="/cv">More about me</Link>
           </div>
-        </div>
     </div>
   )
 }
