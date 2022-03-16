@@ -121,7 +121,7 @@
 
   @media screen and (max-width: 765px) {
     .home{
-        margin: 60px 0;
+        margin: 60px 0px 45px 0px;
     }
 
     .social{
@@ -134,9 +134,13 @@
         text-align: center;
     }
 
+    .aboute_text{
+        margin: 10px 0px 20px 0px;
+    }
+
     .social{
         ul{
-        margin: 70px 0;
+        margin: 50px 0;
         }
     }
   }

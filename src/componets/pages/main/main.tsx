@@ -15,7 +15,7 @@ const Main: React.FC<MainProps> = () => {
             <h1 className={styles.text}>Hi, I am <span className={styles.about_name}>Deni.</span></h1>
             <h2 className={styles.aboute_text}>Software developer</h2>
         </div>
-        <div className={styles.social}>
+        <span className={styles.social}>
           <ul>
             <li className={styles.fa}>
               <a href='https://github.com/MrThelink'  rel="noreferrer" target='_blank'>
@@ -39,7 +39,7 @@ const Main: React.FC<MainProps> = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </span>
           <div className={styles.buttons}>
             <Link to="/proects">My projects</Link>
             <Link to="/cv">More about me</Link>

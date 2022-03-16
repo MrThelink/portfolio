@@ -132,10 +132,24 @@
     
   }
 
-  @media screen and (max-width: 770px) {
-    .box_dev{
-        width: 370px;
-        height: 1200px;
-    }
+
+@media screen and (max-width: 770px) {
+  .box_dev{
+      width: 370px;
+      height: 1200px;
+  }
 }
 
+@media screen and (max-width: 360px) {
+    .box{
+        border: 1px solid red;
+        width: 250px;
+        height: 300px;    
+    }
+
+    .box_dev{
+        border: 1px solid red;
+        width: 350px;
+        height: 2050px;
+    }
+}

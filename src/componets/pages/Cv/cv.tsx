@@ -57,7 +57,7 @@ const Cv: React.FC<CvProps> = () => {
                           <DiJavascript/>
                       </span>
                       <h3>JavaScript</h3>
-                      <h4>I use JS to design my website ore when i do website</h4>
+                      <h4>I use JS to design website ore makes website</h4>
                     </div>
                   </div>
 
@@ -97,7 +97,7 @@ const Cv: React.FC<CvProps> = () => {
                           <DiSass/>
                       </span>
                       <h3>Sass</h3>
-                      <h4>I use Sass to design in my projects</h4>
+                      <h4>I use Sass to design my projects</h4>
                     </div>
                   </div>
 
