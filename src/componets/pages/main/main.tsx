@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./main.module.scss"
+import styles from "../main/main.module.scss"
 import { Link } from 'react-router-dom'
 import { FaGithub, FaInstagram, FaLinkedin,} from 'react-icons/fa';
 
@@ -10,13 +10,14 @@ type MainProps = {
 
 const Main: React.FC<MainProps> = () => {
   return (
+
     <div className={styles.container}>
         <div className={styles.home}>
             <h1 className={styles.text}>Hi, I am <span className={styles.about_name}>Deni.</span></h1>
             <h2 className={styles.aboute_text}>Software developer</h2>
         </div>
         <span className={styles.social}>
-          <ul>
+          <span>
             <li className={styles.fa}>
               <a href='https://github.com/MrThelink'  rel="noreferrer" target='_blank'>
                 <i>
@@ -38,7 +39,7 @@ const Main: React.FC<MainProps> = () => {
                 </i>
               </a>
             </li>
-          </ul>
+          </span>
         </span>
           <div className={styles.buttons}>
             <Link to="/proects">My projects</Link>
