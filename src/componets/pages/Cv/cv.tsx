@@ -3,6 +3,8 @@ import { FaCss3, FaHtml5, FaReact } from "react-icons/fa"
 import { DiJava, DiJavascript, DiSass, } from "react-icons/di"
 import { SiCsharp, SiTypescript, SiUnity } from "react-icons/si";
 import styles from "../Cv/cv.module.scss"
+import { BioSection, BioYear, Bio } from '../Cv/bio'
+import Section from "../Cv/section"
 
 type CvProps = {
 
@@ -11,6 +13,7 @@ type CvProps = {
 const Cv: React.FC<CvProps> = () => {
   return (
     <div className={styles.container}>
+       <Section>
         <div className={styles.about_text}>
               <div className={styles.top_text}>
                 <h2>
@@ -20,14 +23,35 @@ const Cv: React.FC<CvProps> = () => {
                   Hi! Welcome to my cv page. I am currently studying information and communication technologies.
                 </p>
               </div>
-
             <div className={styles.section_title}>
               <h2>Education</h2>
             </div>
 
-            <div className={styles.p_text}>
-              <p>Vantaan Ammattiopisto Varia 2020 – 2023 Information and communication technologies</p>
-            </div>
+            <Bio>
+
+              <Section delay={0.2}>
+                <BioSection>
+                    <BioYear>2020 – 2023</BioYear>
+                    Studying Vantaan Ammattiopisto Varia Information and communication technologies
+                </BioSection>
+
+                <BioSection>
+                    <BioYear>2018 - 2020</BioYear>
+                      Vantaan Kilterin koulu High school
+                </BioSection>  
+
+                <BioSection>
+                  <BioYear>2017 - 2018</BioYear>
+                      Vnataan Uomarinteen koulu Elementary School
+                </BioSection>
+
+                <BioSection>
+                  <BioYear>2016 - 2017</BioYear>
+                    Vaasaa Palosaaren koulu Elementary School
+                </BioSection>
+
+              </Section>
+            </Bio>
 
             <div className={styles.padd}>
                 <h2>SKILLS</h2>
@@ -203,6 +227,7 @@ const Cv: React.FC<CvProps> = () => {
                   </div>
                 </div>
         </div>
+        </Section>
     </div>
   )
 }

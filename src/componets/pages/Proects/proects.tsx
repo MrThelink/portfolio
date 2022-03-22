@@ -42,7 +42,7 @@ const Proects: React.FC<ProectsProps> = () => {
            Portfolio project
           </h2>
           <p className={styles._text}>
-            This is my portfolio project.
+            This is my own portfolio project.
           </p>
           <p className={styles.skills_}>
              <SiTypescript size={15} color="#007ACC"/>TS <FaReact size={15} color="#61DAFB"/>React  <DiSass color='#CB6699'/>Scss
