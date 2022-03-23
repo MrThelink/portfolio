@@ -234,15 +234,29 @@
         }
     }
 
+    .skill_resul{
+        width: 290px;
+        height: 685px;
+    }
+
     .skill_box{
-        width: 250px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
+        margin: 15px 0px 25px 30px;
+
+        span{
+            font-size: 60px;
+        }
 
         a{
             font-size: 60px;
         }
+        h3{
+            font-size: 15.5px;
+            margin: 9px 0;
+        }
         h4{
-            margin: 25px 0px 0px 0px;
+            display: none;
         }
     }
 
@@ -278,8 +292,6 @@
     }
 
     .padd{
-
-        height: 2100px;
 
         h2{
             color: #cdcdff;
@@ -317,10 +329,6 @@
         padding: 3px;   
     }
 
-    .skill_resul{
-        width: 280px;
-        height: 1350px; 
-    }
 }
 
 @media screen and (max-width: 290px) {

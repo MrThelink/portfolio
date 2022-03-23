@@ -9,14 +9,6 @@ body{
     font-weight: 500;
 }
 
-//logo styles
-.logo{
-  color: #8193d8;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 30px;
-}
-
 //Navbar styles
 nav{
   display: flex;
@@ -81,9 +73,6 @@ nav{
 }
 
 @media screen and (max-width: 1400px){
-  .logo{
-    font-size: 25px;
-  }
   .nav_links{
     width: 40%;
   }
@@ -97,11 +86,6 @@ nav{
 }
 
 @media screen and (max-width: 768px) {
-  .logo{
-    font-size: 23px;
-    margin: 0px;
-
-  }
 
   nav{
     color: black;
@@ -153,11 +137,6 @@ nav{
 }
 
 @media screen and (max-width: 300px) {
-    .logo{
-      h4{
-        font-size: 24px;
-      }
-    }
 
     .brgrMenuItems {
       top: 92.81px;

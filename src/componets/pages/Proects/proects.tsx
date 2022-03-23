@@ -3,6 +3,7 @@ import { FaCss3, FaHtml5, FaJava, FaReact, FaUnity } from "react-icons/fa"
 import { DiJavascript, DiSass } from "react-icons/di"
 import { SiCsharp, SiTypescript} from "react-icons/si";
 import styles from "../Proects/proects.module.scss"
+import Section from '../Cv/section'
 
 type ProectsProps = {
 
@@ -11,6 +12,7 @@ type ProectsProps = {
 const Proects: React.FC<ProectsProps> = () => {
   return (
     <div className={styles.container}>
+      <Section>
       <div className={styles.top_text}>
         <p>
           Projects
@@ -112,6 +114,7 @@ const Proects: React.FC<ProectsProps> = () => {
         </div>
 
         </div>
+        </Section>
       </div>
   )
 }

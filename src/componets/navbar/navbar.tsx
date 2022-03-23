@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from "../navbar/navbar.module.scss"
-import { GiHamburgerMenu } from "react-icons/gi";
+import { GiHamburgerMenu } from "react-icons/gi"
+import { Logo , StyleLogo } from "../navbar/logo"
 
 
 type NavbarProps = {
@@ -18,9 +19,12 @@ const Navbar: React.FC<NavbarProps> = () => {
   return (
     <div className={styles.container}>
           <nav>
-                <div className={styles.logo}>
-                 <h4>Deni</h4>
-                </div>
+                <StyleLogo>
+                  <Logo to="/" onClick={(e) => handleClick(e)}>
+                    <h4>Deni</h4>
+                  </Logo>
+                </StyleLogo>
+
                 <ul className={styles.nav_links}>
                     <Link to="/">Home</Link>
                     <Link to="/proects">Projects</Link>
