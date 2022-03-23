@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaCss3, FaHtml5, FaReact } from "react-icons/fa"
-import { DiCss3, DiCss3Full, DiJava, DiJavascript, DiSass, } from "react-icons/di"
-import { SiCsharp, SiCsswizardry, SiTypescript, SiUnity } from "react-icons/si";
+import { FaHtml5, FaReact } from "react-icons/fa"
+import { DiCss3, DiJava, DiJavascript, DiSass, } from "react-icons/di"
+import { SiCsharp, SiTypescript, SiUnity } from "react-icons/si";
 import styles from "../Cv/cv.module.scss"
 import { BioSection, BioYear, Bio } from '../Cv/bio'
 import Section from "../Cv/section"
