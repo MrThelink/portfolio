@@ -7,17 +7,17 @@ const Sosical: React.FC = () => {
     return (
         <div className={styles.container}>
             <div className={styles.someButton}>
-                <a href='https://github.com/MrThelink' target='_blank'>
+                <a href='https://github.com/MrThelink' target='_blank' rel="noreferrer">
                     <FaGithub size={40} cursor="pointer"/>
                 </a>
             </div>
             <div className={styles.someButton}>
-                <a href='https://www.linkedin.com/'>
-                     <FaLinkedin size={40} cursor="pointer" target='_blank'/>
+                <a href='https://www.linkedin.com/' target='_blank' rel="noreferrer">
+                     <FaLinkedin size={40} cursor="pointer"/>
                 </a>
             </div>
-            <div className={styles.someButton}>
-                <a href="https://www.instagram.com/d7enii/" target='_blank'>
+            <div className={styles.someButton} >
+                <a href="https://www.instagram.com/d7enii/" target='_blank' rel="noreferrer" >
                     <FaInstagram size={40} cursor="pointer"/>
                 </a>
             </div>

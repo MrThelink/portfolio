@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import styles from "../navbar/navbar.module.scss"
 import { GiHamburgerMenu } from "react-icons/gi"
 import { Logo , StyleLogo } from "../navbar/logo"
+import Hamburger from 'hamburger-react'
 
 
 type NavbarProps = {
@@ -32,7 +33,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                 </ul>
 
                 <div className={styles.burgerMenuButton} onClick={() => setBurgermenuIsOpen(!burgermenuIsOpen)}>
-                  <GiHamburgerMenu size={28} />
+                  <Hamburger size={28}/>
                 </div>
 
                 {
