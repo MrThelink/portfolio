@@ -11,7 +11,7 @@ import Navbar from './componets/navbar/navbar';
 import styles from "./app.module.scss"
 
 
-const App: React.FC = () => {
+const App: React.FC = () => { 
   return (
     <div className={styles.container}>
 

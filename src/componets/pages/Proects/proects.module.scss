@@ -10,9 +10,8 @@
 
 .box_dev{
     width: 1120px;
-    height: 1200px;
+    height: 850px;  
     margin: 0 auto;
-    transition: .3s;
 }
 
 //box size
@@ -74,6 +73,11 @@
     }
 }
 
+.none{  
+    margin: 0px;
+    padding: 0px;
+}
+
 ._text{
     color: #cdcdff;
 
@@ -95,6 +99,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
 }
 
 .buttons{
@@ -142,14 +147,27 @@
 
 @media screen and (max-width: 360px) {
     .box{
-        border: 1px solid red;
-        width: 250px;
-        height: 300px;    
+        width: 250px;       
+        height: 310px;
+        
+        margin: 2px;
+        padding: 5px;
+
+        .skills_{
+            margin: 40px 0px 30px 0px;
+        }
     }
 
     .box_dev{
-        border: 1px solid red;
-        width: 350px;
-        height: 2050px;
+        width: 260px;
+        height: 1650px;
+    }
+
+    .buttons{
+        margin-top: auto;
+    }
+
+    .none{
+        display: none;
     }
 }

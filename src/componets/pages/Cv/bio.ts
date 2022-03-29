@@ -34,4 +34,14 @@ export const Bio = styled(Box)`
     @media screen and (max-width: 450px) {
         width: 330px;
     }
+
+    @media screen and (max-width: 360px) {
+        width: 280px;
+        height: 380px;
+    }
+
+    @media screen and (max-width: 290px) {
+        width: 250px;
+        height: 340px;
+    }
 `

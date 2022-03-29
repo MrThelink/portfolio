@@ -333,22 +333,26 @@
 @media screen and (max-width: 290px) {
     .about_text{
         width: 250px;
-        height: 1060px;
+        height: 750px;
     }
 
     .skill_resul{
         width: 220px;
-        height: 1350px; 
-    }
+        height: 670px; 
+    }   
 
     .skill_box{
-        width: 220px;
-        height: 220px;
+        margin: 15px 0px 20px 0px;
+    }
 
-        margin: 0px;
+    .padd{
 
-        h4{
-            margin: 20px 0px 0px;
+        h2{
+            margin: 100px 0px 30px 0px;
         }
+    }
+
+    .dot_controller{
+        margin: 0px 0px 20px 0px;
     }
 }

@@ -24,6 +24,7 @@ const Main: React.FC<MainProps> = () => {
           <Link to="/proects">My projects</Link>
           <Link to="/cv">More about me</Link>
         </div>
+
       </Section>
     </div>
   )

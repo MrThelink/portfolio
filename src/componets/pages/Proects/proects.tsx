@@ -80,7 +80,7 @@ const Proects: React.FC<ProectsProps> = () => {
             Team school Java game project
           </h2>
           <p className={styles.box_topText}>
-            This is rpg Java game. I made this project with classmates (GAME NAME: Magic world).
+            This is rpg Java game. I made this project with classmates <p className={styles.none}>(GAME NAME: Magic world).</p>
           </p>
           <p className={styles.box_top} >
             <FaJava size={15} color="red"/>Java

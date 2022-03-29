@@ -4,8 +4,6 @@
     justify-content: center;
     flex-direction: row;
 
-    cursor: pointer;
-
     margin: 70px 0 80px;
 }
 
@@ -38,6 +36,6 @@
 
 @media screen and (max-width: 390px) {
     .container{
-        margin: 30px 0;
+        margin: 20px 0;
     }
   }
