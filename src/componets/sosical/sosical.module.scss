@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    cursor: pointer;
+
+    margin: 70px 0 80px;
+}
+
+.container .someButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    background: #cdcdff;
+    margin: 10px;
+    transition: 0.6s;
+
+    svg {
+        color: #23283e;
+    }
+}
+
+.container .someButton:hover {
+    background: #23283e;
+
+    svg {
+        color: #cdcdff;
+        transition: 0.6s;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container{
+        margin: 30px 0;
+    }
+  }

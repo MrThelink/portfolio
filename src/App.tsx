@@ -15,7 +15,7 @@ const App: React.FC = () => {
   return (
     <div className={styles.container}>
 
-      <Router basename='/portfolio'>
+      <Router>
         <Navbar/>
 
         <Switch>

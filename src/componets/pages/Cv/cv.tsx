@@ -42,7 +42,7 @@ const Cv: React.FC<CvProps> = () => {
 
                 <BioSection>
                   <BioYear>2017 - 2018</BioYear>
-                      Vnataan Uomarinteen koulu Elementary School
+                      Vantaan Uomarinteen koulu Elementary School
                 </BioSection>
 
                 <BioSection>
