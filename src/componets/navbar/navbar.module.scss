@@ -6,7 +6,6 @@ body{
     padding: 0;
     background-color: #23283e;
     font-family: "Montserrat", sans-serif;
-    //font-weight: 500;
 }
 
 //Navbar styles
@@ -40,6 +39,7 @@ nav{
 .burgerMenuButton {
   display: none;
   cursor: pointer;
+  user-select: none;
 }
 
 .brgrMenuItems {

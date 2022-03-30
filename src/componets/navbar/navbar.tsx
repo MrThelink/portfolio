@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from "../navbar/navbar.module.scss"
-import { GiHamburgerMenu } from "react-icons/gi"
 import { Logo , StyleLogo } from "../navbar/logo"
 import Hamburger from 'hamburger-react'
 
