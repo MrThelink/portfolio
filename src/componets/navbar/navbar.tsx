@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import styles from "../navbar/navbar.module.scss"
-import { Logo , StyleLogo } from "../navbar/logo"
-import Hamburger from 'hamburger-react'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import styles from "../navbar/navbar.module.scss";
+import { VscChromeClose } from 'react-icons/vsc';
+import { Logo , StyleLogo } from "../navbar/logo";
+import { GiHamburgerMenu } from 'react-icons/gi'; 
 
 
 type NavbarProps = {
@@ -32,7 +33,11 @@ const Navbar: React.FC<NavbarProps> = () => {
                 </ul>
 
                 <div className={styles.burgerMenuButton} onClick={() => setBurgermenuIsOpen(!burgermenuIsOpen)}>
-                  <Hamburger size={28}/>
+                    {
+                      burgermenuIsOpen
+                      ? <VscChromeClose size={28}/>
+                      : <GiHamburgerMenu size={28}/>
+                    }
                 </div>
 
                 {
