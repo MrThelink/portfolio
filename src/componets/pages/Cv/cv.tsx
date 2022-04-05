@@ -62,7 +62,6 @@ const Cv: React.FC<CvProps> = () => {
                           <FaHtml5/>
                       </span>
                       <h3>HTML 5</h3>
-                      <h4>I use HTML when I am doing website</h4>
                     </div>
 
                     <div className={styles.skill_box}>
@@ -71,7 +70,6 @@ const Cv: React.FC<CvProps> = () => {
                           <DiCss3/>
                       </span>
                       <h3>CSS 3</h3>
-                      <h4>I use css to design my website</h4>
                     </div>
                   </div>
 
@@ -81,7 +79,6 @@ const Cv: React.FC<CvProps> = () => {
                           <DiJavascript/>
                       </span>
                       <h3>JavaScript</h3>
-                      <h4>I use JS to design website ore makes website</h4>
                     </div>
                   </div>
 
@@ -91,7 +88,6 @@ const Cv: React.FC<CvProps> = () => {
                           <SiTypescript/>
                       </span>
                       <h3>TypeScript</h3>
-                      <h4>I use TS to dissan and make website</h4>
                     </div>
                   </div>
 
@@ -101,7 +97,6 @@ const Cv: React.FC<CvProps> = () => {
                           <DiJava/>
                       </span>
                       <h3>Java</h3>
-                      <h4>I use Java when i need to make mobile site ore game</h4>
                     </div>
                   </div>
 
@@ -111,7 +106,6 @@ const Cv: React.FC<CvProps> = () => {
                           <FaReact/>
                       </span>
                       <h3>React</h3>
-                      <h4>I use React when I am doing website ...</h4>
                     </div>
                   </div>
 
@@ -121,7 +115,6 @@ const Cv: React.FC<CvProps> = () => {
                           <DiSass/>
                       </span>
                       <h3>Sass</h3>
-                      <h4>I use Sass to design my projects</h4>
                     </div>
                   </div>
 
@@ -131,7 +124,6 @@ const Cv: React.FC<CvProps> = () => {
                           <SiCsharp/>
                       </span>
                       <h3>C#</h3>
-                      <h4>I use C# when i makes games</h4>
                     </div>
                   </div>
                   
@@ -141,7 +133,6 @@ const Cv: React.FC<CvProps> = () => {
                           <SiUnity/>
                       </span>
                       <h3>Unity</h3>
-                      <h4>I use Unity when i'm doing games</h4>
                     </div>
                   </div>
                 </div>

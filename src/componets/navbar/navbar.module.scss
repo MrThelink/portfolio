@@ -8,6 +8,19 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: none;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #cdcdff;
+  border-radius: 100vw;
+}
+
 //Navbar styles
 nav{
   display: flex;
