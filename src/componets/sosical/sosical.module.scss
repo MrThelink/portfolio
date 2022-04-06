@@ -16,20 +16,19 @@
     width: 50px;
     border-radius: 50%;
 
-    background: #cdcdff;
     margin: 10px;
     transition: 0.6s;
 
     svg {
-        color: #23283e;
+        color: #cdcdff;
     }
 }
 
 .container .someButton:hover {
-    background: #23283e;
+    background: #cdcdff;
 
     svg {
-        color: #cdcdff;
+        color: #23283e;
         transition: 0.6s;
     }
 }

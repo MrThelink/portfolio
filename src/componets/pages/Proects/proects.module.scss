@@ -1,3 +1,7 @@
+.container{
+    user-select: none;
+}
+
 .top_text{
     display: flex;
     justify-content: center;
@@ -114,7 +118,7 @@
     border: 1px solid #cdcdff;
 
     width: 150px;
-    margin: 15px 30px;
+    margin: 0px;
     padding: 14px 0;
 
     border-radius: 6px;

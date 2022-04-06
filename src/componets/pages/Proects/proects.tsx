@@ -31,7 +31,7 @@ const Proects: React.FC<ProectsProps> = () => {
             <FaUnity size={20} color="#4c5d70"/>Unity <SiCsharp size={15} color="#68217A"/>C#
           </p>
           <div className={styles.buttons}>
-            <a href="https://play.unity.com/mg/other/find-the-way-out-1" rel="noreferrer" target='_blank'>
+            <a href="https://play.unity.com/mg/other/webgl-builds-176295" rel="noreferrer" target='_blank'>
               <p className={styles.learn_title}>
                 Learn More
               </p>
